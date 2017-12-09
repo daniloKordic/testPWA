@@ -3,7 +3,7 @@ var deferredPrompt;
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('/sw.js')
+    .register('/testPWA/sw.js')
     .then(function () {
       console.log('Service worker registered!');
     });
